@@ -40,6 +40,9 @@ export const AppDataSource = new DataSource({
   database: process.env.DB_NAME,
   synchronize: false,
   logging: false,
+  ssl: process.env.NODE_ENV === "production" 
+    ? { rejectUnauthorized: false }
+    : false,
   entities: [
     Users,
     Courses,
