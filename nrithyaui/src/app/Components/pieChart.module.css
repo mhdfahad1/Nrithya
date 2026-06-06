@@ -1,0 +1,5 @@
+.chartWrap {
+  .recharts-legend-item {
+    font-size: 10px !important;
+  }
+}
