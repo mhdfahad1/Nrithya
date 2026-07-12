@@ -5,7 +5,7 @@ import Providers from "./providers";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Nrithya",
+  title: "Student Management System",
   description: "",
 };
 

@@ -133,7 +133,7 @@ const AddTeacher = () => {
           {/* First name */}
           <div className="w-[32%]">
             <label
-              className="block text-[#75172F]  font-bold mb-2"
+              className="block text-black  font-bold mb-2"
               htmlFor="firstName"
             >
               First Name <span className="ml-1 text-red-500">*</span>
@@ -462,7 +462,7 @@ const AddTeacher = () => {
 
             <div className="flex flex-col justify-between gap-3 w-[100%]">
               <label
-                className="block text-[#75172F]  font-bold "
+                className="block text-black  font-bold "
                 htmlFor="course"
               >
                 Course<span className="ml-1 text-red-500">*</span>

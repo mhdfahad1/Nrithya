@@ -10,9 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         violetFill:
-          "bg-[#75172f]  h-[40px] border-[1px] border-[#EEF0F4] rounded font-[400] text-[15px] text-white hover:bg-[#75172f]/90",
+          "bg-[#2563EB]  h-[40px] border-[1px] border-[#EEF0F4] rounded font-[400] text-[15px] text-white hover:bg-[#2563EB]/90",
         primary:
-          "bg-[#39B16E]  h-[40px] border-[1px] border-[#39B16E] rounded font-[400] text-[15px] text-white hover:bg-[#39B16E]/90",
+          "bg-[#2563EB]  h-[40px] border-[1px] border-[#2563EB] rounded font-[400] text-[15px] text-white hover:bg-[#2563EB]/90",
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",

@@ -156,7 +156,7 @@ const Page = () => {
           noValidate
         >
           <div className="bg-[#fdefef] p-4 rounded-xl mb-5">
-            <label className="block text-[#75172F] font-bold mb-2 pt-5">
+            <label className="block text-black font-bold mb-2 pt-5">
               Original Class
             </label>
             <div className="grid grid-cols-[1fr,1fr,1fr] gap-5 pt-2">

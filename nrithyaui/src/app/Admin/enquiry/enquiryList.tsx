@@ -765,7 +765,7 @@ export default function EnquiryList({ getRole }: EnquiryListProps) {
               <Button
                 size="sm"
                 type="submit"
-                className="h-9 gap-1 bg-[#75172F] hover:bg-[#75172F] active:bg-[#98354e]"
+                className="h-9 gap-1 bg-[#6B7280] hover:bg-[#6B7280] active:bg-[#4B5563]"
                 disabled={!isDirty && !isDateChanged && resetFilter && isValid}
                 onSubmit={handleSubmit(onFilter)}
               >
@@ -775,11 +775,11 @@ export default function EnquiryList({ getRole }: EnquiryListProps) {
               <Button
                 size="sm"
                 className="h-9 gap-1 "
-                style={{ backgroundColor: "lightgray" }}
+                style={{ backgroundColor: "#E5E7EB", color: "#6B7280" }}
                 onClick={handleReset}
               >
-                <RotateCcw className="h-4 w-4" color="#75172F" />
-                <span style={{ color: "#75172F" }}>Reset</span>
+                <RotateCcw className="h-4 w-4" color="#6B7280" />
+                <span style={{ color: "#6B7280" }}>Reset</span>
               </Button>
               {/* Button to toggle visibility of second-priority filters */}
               <Button

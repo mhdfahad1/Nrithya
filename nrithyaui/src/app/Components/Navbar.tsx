@@ -52,15 +52,15 @@ const Navbar = ({ name, setRole }: Iprops) => {
     <div className="pl-[207px]">
       <div className="bg-white shadow-md  fixed w-[100%] pr-44 z-10 -ml-48 -mt-12">
         <nav className="container mx-auto flex justify-between items-center  py-2 pb-1  ">
-          <div className="text-xl font-bold px-7 text-[#75172F] ">{name}</div>
+          <div className="text-xl font-bold px-7 text-black ">{name}</div>
           <div className="flex items-center justify-end px-9 gap-3">
-            <i className="fa-solid fa-user text-red-900 text-2xl"></i>
+            <i className="fa-solid fa-user text-black text-2xl"></i>
             <div className="mr-4 flex flex-col gap-0">
-              <h4 className="text-sm font-bold text-[#75172F]">
+              <h4 className="text-sm font-bold text-black">
                 {" "}
                 {data?.userName}
               </h4>
-              <span className="text-xs text-[#75172F]">
+              <span className="text-xs text-black">
                 {data?.userRole === "superadmin"
                   ? "Super Admin"
                   : data?.userRole === "admin" && "Admin"}
@@ -70,7 +70,7 @@ const Navbar = ({ name, setRole }: Iprops) => {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button aria-haspopup="true" size="icon" variant="ghost">
-                  <Settings className=" text-red-900" />
+                  <Settings className=" text-black" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
@@ -81,7 +81,7 @@ const Navbar = ({ name, setRole }: Iprops) => {
                       : "/Admin/reset-password"
                   }
                 >
-                  <DropdownMenuItem className="text-[#75172F] flex gap-2  hover:bg-[#f7cdd8] hover:text-[#75172F]">
+                  <DropdownMenuItem className="text-black flex gap-2  hover:bg-[#DBEAFE] hover:text-black">
                     <i className="fa-solid fa-lock"></i>
                     Reset Password
                   </DropdownMenuItem>

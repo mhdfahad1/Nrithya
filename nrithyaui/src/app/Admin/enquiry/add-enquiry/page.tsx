@@ -150,7 +150,7 @@ const AddEnquiry = () => {
           {/* student name */}
           <div className="w-[48%]">
             <label
-              className="block text-[#75172F]  font-bold mb-2"
+              className="block text-black  font-bold mb-2"
               htmlFor="studentName"
             >
               Name<span className="ml-1 text-red-500">*</span>
@@ -179,7 +179,7 @@ const AddEnquiry = () => {
           {/* contactNumber */}
           <div className="w-[33%]">
             <label
-              className=" block text-[#75172F]  font-bold mb-2"
+              className=" block text-black  font-bold mb-2"
               htmlFor="contactNumber"
             >
               Contact Number<span className="ml-1 text-red-500">*</span>

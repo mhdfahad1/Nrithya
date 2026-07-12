@@ -197,7 +197,7 @@ const AdminManagement: React.FC<any> = ({
           </div>
           <div className="w-[48%]">
             <label
-              className=" block text-[#75172F]  font-bold mb-2"
+              className=" block text-black  font-bold mb-2"
               htmlFor="password"
             >
               Password<span className="text-red-500 ml-1">*</span>

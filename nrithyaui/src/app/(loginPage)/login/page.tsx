@@ -65,11 +65,11 @@ const LoginInput = () => {
       >
         <Toaster />
         <div className="w-[100%] bg-white p-7 rounded flex flex-col items-center justify-center gap-y-3">
-          <h1 className=" text-[#75172F] font-[700] text-[30px] ">Login</h1>
+          <h1 className=" text-[#2563EB] font-[700] text-[30px] ">Login</h1>
           {/* User name input field */}
           <div className="w-[100%]">
             <label
-              className="block text-[#75172F]  font-bold mb-2"
+              className="block text-black  font-bold mb-2"
               htmlFor="username"
             >
               Username
@@ -95,7 +95,7 @@ const LoginInput = () => {
           {/* Password input field */}
           <div className="w-[100%] mb-8">
             <label
-              className="block text-[#75172F]  font-bold mb-2"
+              className="block text-black  font-bold mb-2"
               htmlFor="password"
             >
               Password

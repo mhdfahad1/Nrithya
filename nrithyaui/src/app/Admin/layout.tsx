@@ -155,10 +155,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 >
                   <a
                     href={items?.path}
-                    className={`flex items-center gap-2 cursor-pointer text-sm py-2 px-4 text-[#75172F] focus:text-[#75172F] hover:bg-[#f7cdd8] hover:text-[#75172F] focus:bg-[#f7cdd8] rounded ${
+                    className={`flex items-center gap-2 cursor-pointer text-sm py-2 px-4 text-black focus:text-black hover:bg-[#DBEAFE] hover:text-black focus:bg-[#DBEAFE] rounded ${
                       items.path
                         ? isActive(items.path || "")
-                          ? "bg-[#f7cdd8] text-[#75172F]"
+                          ? "bg-[#DBEAFE] text-black"
                           : ""
                         : ""
                     }`}
@@ -171,7 +171,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         handleLogout();
                       } else {
                         router.push(
-                          items?.path !== undefined ? items?.path : ""
+                          items?.path !== undefined ? items?.path : "",
                         );
                       }
                     }}
@@ -205,9 +205,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                           <a
                             key={index}
                             href={item?.path}
-                            className={`flex items-center gap-2 text-xs py-3 px-3 mt-2 text-[#75172F] focus:text-[#75172F] hover:bg-[#f7cdd8] hover:text-[#75172F] focus:bg-[#f7cdd8] rounded ${
+                            className={`flex items-center gap-2 text-xs py-3 px-3 mt-2 text-black focus:text-black hover:bg-[#DBEAFE] hover:text-black focus:bg-[#DBEAFE] rounded ${
                               isActive(item.path || "") &&
-                              "bg-[#f7cdd8] text-[#75172F]"
+                              "bg-[#DBEAFE] text-black"
                             }`}
                             // onClick={() => {
                             //   if (items.subItems && items.subItems.length > 0) {

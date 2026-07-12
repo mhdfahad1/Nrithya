@@ -165,7 +165,7 @@ const Page = () => {
         >
           <div className="grid grid-cols-[1fr,1fr,1fr,1fr] gap-4 mb-4">
             <div className="">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 First Name<span className="text-red-500 ml-1">*</span>
               </label>
               <Input
@@ -201,7 +201,7 @@ const Page = () => {
             </div>
 
             <div className="">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Last Name
               </label>
               <Input
@@ -228,7 +228,7 @@ const Page = () => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-[#75172F] font-bold mb-2 ">
+              <label className="block text-black font-bold mb-2 ">
                 Email
               </label>
               <Input
@@ -249,7 +249,7 @@ const Page = () => {
               )}
             </div>
             <div className="mb-4">
-              <label className="block text-[#75172F] font-bold mb-2 ">
+              <label className="block text-black font-bold mb-2 ">
                 Level
               </label>
               <select
@@ -280,7 +280,7 @@ const Page = () => {
           <div className="grid grid-cols-[1fr,1fr,1fr,1fr] gap-4">
             <div className=" mb-4">
               <div className=" ">
-                <label className="block text-[#75172F]  font-bold mb-2">
+                <label className="block text-black  font-bold mb-2">
                   Whatsapp No<span className="text-red-500 ml-1">*</span>
                 </label>
                 <Input
@@ -316,7 +316,7 @@ const Page = () => {
               </div>
             </div>
             <div className="">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Alternative Number
               </label>
               <Input
@@ -345,7 +345,7 @@ const Page = () => {
               )}
             </div>
             <div className="mb-4">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Date of Birth<span className="text-red-500 ml-1">*</span>
               </label>
               <Input
@@ -369,7 +369,7 @@ const Page = () => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Gender<span className="text-red-500 ml-1">*</span>
               </label>
               <select
@@ -397,7 +397,7 @@ const Page = () => {
 
           <div className="grid grid-cols-[1fr,1fr,1fr,1fr] gap-4 ">
             <div className="mb-6">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Address
               </label>
               <Input
@@ -425,7 +425,7 @@ const Page = () => {
 
             <div className=" mb-4">
               <div className="mr-4 ">
-                <label className="block text-[#75172F]  font-bold mb-2">
+                <label className="block text-black  font-bold mb-2">
                   Day 1
                 </label>
                 <Input
@@ -459,7 +459,7 @@ const Page = () => {
               </div>
             </div>
             <div className="">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Day 2
               </label>
               <Input
@@ -491,7 +491,7 @@ const Page = () => {
               )}
             </div>
             <div className="">
-              <label className="block text-[#75172F]  font-bold mb-2">
+              <label className="block text-black  font-bold mb-2">
                 Previous exams details
               </label>
               <Input
@@ -529,13 +529,13 @@ const Page = () => {
             <div className="grid grid-cols-[1fr,1fr]">
               <label
                 htmlFor=""
-                className="block text-[#75172F]  font-bold mb-2"
+                className="block text-black  font-bold mb-2"
               >
                 Date of Joining<span className="text-red-500 ml-1">*</span>
               </label>
               <label
                 htmlFor=""
-                className="block text-[#75172F]  font-bold mb-2 -mx-4"
+                className="block text-black  font-bold mb-2 -mx-4"
               >
                 Batch<span className="text-red-500 ml-1">*</span>
               </label>
@@ -587,7 +587,7 @@ const Page = () => {
             {fields.length > 0 ? (
               <button
                 type="button"
-                className="w-10 h-10 items-center rounded-lg bg-[#39B16E] text-white p-2"
+                className="w-10 h-10 items-center rounded-lg bg-[#2563EB] text-white p-2"
                 onClick={() =>
                   append({
                     batch_id: 0,
@@ -608,7 +608,7 @@ const Page = () => {
               <Button
                 type="button"
                 variant={"outline"}
-                className="border-[#39B16E] text-[#39B16E] hover:bg-[#39b16fcb] hover:text-[#fff] shadow appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
+                className="border-[#2563EB] text-[#2563EB] hover:bg-[#2563eb] hover:text-[#fff] shadow appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
                 onClick={() =>
                   append({
                     batch_id: 0,

@@ -537,7 +537,7 @@ export default function TableList({ getRole }: ListBatchProps) {
                       size="sm"
                       type="submit"
                       className="h-9 gap-1 "
-                      style={{ backgroundColor: " #75172F" }}
+                      style={{ backgroundColor: "#6B7280", color: "white" }}
                       disabled={!isDirty && resetFilter && !isDateChange}
                     >
                       <ListFilter className="h-3.5 w-3.5" />
@@ -546,11 +546,11 @@ export default function TableList({ getRole }: ListBatchProps) {
                     <Button
                       size="sm"
                       className="h-9 gap-1 "
-                      style={{ backgroundColor: "lightgray" }}
+                      style={{ backgroundColor: "#E5E7EB", color: "#6B7280" }}
                       onClick={handleReset}
                     >
-                      <RotateCcw className="h-4 w-4" color="#75172F" />
-                      <span style={{ color: "#75172F" }}>Reset</span>
+                      <RotateCcw className="h-4 w-4" color="#6B7280" />
+                      <span style={{ color: "#6B7280" }}>Reset</span>
                     </Button>
                   </form>
                 </div>

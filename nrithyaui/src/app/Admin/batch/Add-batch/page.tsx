@@ -165,7 +165,7 @@ const Page = () => {
               <div className="mb-5">
                 <label
                   htmlFor=""
-                  className="block text-[#75172F]  font-bold mb-2"
+                  className="block text-black  font-bold mb-2"
                 >
                   Batch Name<span className="text-red-500 ml-1">*</span>
                 </label>
@@ -195,7 +195,7 @@ const Page = () => {
               <div className="mb-5">
                 <label
                   htmlFor=""
-                  className="block text-[#75172F]  font-bold mb-2"
+                  className="block text-black  font-bold mb-2"
                 >
                   Course<span className="text-red-500 ml-1">*</span>
                 </label>
@@ -212,7 +212,7 @@ const Page = () => {
               <div className="mb-5">
                 <label
                   htmlFor=""
-                  className="block text-[#75172F]  font-bold mb-2"
+                  className="block text-black  font-bold mb-2"
                 >
                   Teacher Name<span className="text-red-500 ml-1">*</span>
                 </label>
@@ -234,7 +234,7 @@ const Page = () => {
               <div className="mb-5">
                 <label
                   htmlFor=""
-                  className="block text-[#75172F]  font-bold mb-2"
+                  className="block text-black  font-bold mb-2"
                 >
                   Start Date<span className="text-red-500 ml-1">*</span>
                 </label>
@@ -257,7 +257,7 @@ const Page = () => {
               <div className="mb-5">
                 <label
                   htmlFor=""
-                  className="block text-[#75172F]  font-bold mb-2"
+                  className="block text-black  font-bold mb-2"
                 >
                   Capacity<span className="text-red-500 ml-1">*</span>
                 </label>
@@ -283,7 +283,7 @@ const Page = () => {
               <div className="mb-5">
                 <label
                   htmlFor=""
-                  className="block text-[#75172F]  font-bold mb-2"
+                  className="block text-black  font-bold mb-2"
                 >
                   Whatsapp Link
                 </label>

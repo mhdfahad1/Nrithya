@@ -143,9 +143,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <nav className=" px-1 flex flex-col gap-1 ">
                   <a
                     href={items?.path}
-                    className={`flex items-center gap-12 text-sm py-2 px-4 text-[#75172F] cursor-pointer focus:text-[#75172F] hover:bg-[#f7cdd8] hover:text-[#75172F] focus:bg-[#f7cdd8] rounded ${
+                    className={`flex items-center gap-12 text-sm py-2 px-4 text-black cursor-pointer focus:text-black hover:bg-[#DBEAFE] hover:text-black focus:bg-[#DBEAFE] rounded ${
                       isActive(items.path || "") &&
-                      "bg-[#f7cdd8] text-[#75172F]"
+                      "bg-[#DBEAFE] text-black"
                     }`}
                     onClick={(event: React.MouseEvent<HTMLAnchorElement>) => {
                       event.preventDefault();
@@ -189,9 +189,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                           <a
                             key={index}
                             href={item?.path}
-                            className={`flex items-center gap-2 text-xs py-3 px-3 text-[#75172F] focus:text-[#75172F] hover:bg-[#f7cdd8] hover:text-[#75172F] focus:bg-[#f7cdd8] rounded ${
+                            className={`flex items-center gap-2 text-xs py-3 px-3 text-black focus:text-black hover:bg-[#DBEAFE] hover:text-black focus:bg-[#DBEAFE] rounded ${
                               isActive(item.path || "") &&
-                              "bg-[#f7cdd8] text-[#75172F]"
+                              "bg-[#DBEAFE] text-black"
                             }`}
                             // onClick={() => {
                             //   if (items.subItems && items.subItems.length > 0) {

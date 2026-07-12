@@ -557,7 +557,7 @@ export default function ListReportFeeCollection() {
                       size="sm"
                       type="submit"
                       className="h-9 gap-1 "
-                      style={{ backgroundColor: " #75172F" }}
+                      style={{ backgroundColor: "#6B7280", color: "white" }}
                       disabled={
                         !isDirty &&
                         resetFilter &&
@@ -571,11 +571,11 @@ export default function ListReportFeeCollection() {
                     <Button
                       size="sm"
                       className="h-9 gap-1 "
-                      style={{ backgroundColor: "lightgray" }}
+                      style={{ backgroundColor: "#E5E7EB" }}
                       onClick={handleReset}
                     >
-                      <RotateCcw className="h-4 w-4" color="#75172F" />
-                      <span style={{ color: "#75172F" }}>Reset</span>
+                      <RotateCcw className="h-4 w-4" color="#6B7280" />
+                      <span style={{ color: "#6B7280" }}>Reset</span>
                     </Button>
                     <Button
                       size="sm"

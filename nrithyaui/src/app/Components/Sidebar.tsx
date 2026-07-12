@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-import "./Sidebar.css";
+// import "./Sidebar.css";
 import Image from "next/image";
-import nrithyaIcon from "../../../public/images/nrithya.png";
+import nrithyaIcon from "../../../public/images/logo.png";
 
 type IProps = {
   navItem: React.ReactNode;
@@ -20,7 +20,7 @@ const Sidebar = ({ navItem }: IProps) => {
           <Image width={"150"} className="" src={nrithyaIcon} alt="nrithya" />
         </Link>
       </div>
-      <div className=" text-black flex flex-col gap-3 mt-2 ">{navItem}</div>
+      <div className=" text-black flex flex-col gap-1 mt-2 ">{navItem}</div>
     </div>
   );
 };
